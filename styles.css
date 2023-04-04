@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    --blue: #264a8e;
+    --red: #dd2b31;
+  }
+  body{
+   font-family: 'Poppins', sans-serif;
+  }
+  @font-face {
+    font-family: 'Objet';
+    src: url(Objet-ExtraBold/Objet-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+  }
+  .section-heading{
+    font-family: 'Objet';
+  }
+
+  .navbar .navbar-nav .nav-link {
+   color: #000000;
+   font-size: 1.1em;
+   padding: 10px;
+   font-weight: 600;
+   letter-spacing: 0.15rem;
+   transition: 0.5s ease;
+}
+.navbar .navbar-nav .nav-link:hover{
+   color: #808080;
+   border-bottom: 1px solid #808080 ;
+}
+.sm-icons {
+ flex-direction: row;
+}
+@media only screen and (max-width: 960px) {
+ .sm-icons .nav-item {
+   padding-right: 1em;
+ }
+}
+
+ .hero-button-1{
+background-color: var(--blue);
+color: white;
+border-radius: 30px;
+ } 
+ .hero-button-2 {
+    background-color: var(--red);
+    color: white;
+    border-radius: 30px;
+ }
+ .about-us-img{
+   height: 300px;
+   width: 300px;
+ }
+
+ 
+ .flex-container{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .header-button-1, .header-button-2, .header-button-3, .header-button-4 {
+  color: white;
+  font-size: 15px !important;
+ }
+ .header-button-1{
+  background-color: var(--blue);
+  border-radius: 0 !important;
+ }
+ .header-button-2{
+  background-color: var(--red);
+  border-radius: 0 !important;
+ }
+ .header-button-3{
+  background-color: var(--blue);
+  border-radius: 0 !important;
+ }
+ .header-button-4{
+  background-color: var(--red);
+  border-radius: 0 !important;
+ }
+ /*.fab{
+  color: var(--blue);
+ }*/
+ .donation-img{
+  height: 200px;
+  width: 300px;
+ }
+footer {
+  background-color: var(--blue);
+}
+.navbar{
+  background-color: white;
+  
+}
+.navbar-toggler-icon{
+  color: black !important;
+}
+.navbar-collapse{
+  text-align: center;
+}
+.about-us-heading{
+  font-size: 2rem;
+  
+  font-family: 'Objet';
+}
+.card {
+  border-top: 5px solid var(--red);
+}
+.card-button {
+  background-color: var(--red);
+  color: white !important;
+}
+.card-title{
+  font-weight: 600;
+}
+.what-we-do{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.donate-now{
+ /* background-image: url(images/background.jpg);*/
+  background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  max-height: fit-content ;
+}
+.badge{
+  color: var(--red);
+  background-color: pink;
+  padding: 20px;
+  border-radius: 50px;
+}
+.donate-desc{
+  line-height: 2;
+}
+.carousel-heading{
+
+  font-size: 4rem !important;
+  font-weight: 900 !important;
+}
+.carousel-img{
+  height: 550px;
+}
+.contact {
+  background-color: #e1dddd;
+}
+
+
+

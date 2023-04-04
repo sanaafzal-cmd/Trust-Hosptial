@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Objet';
+    src: local('Objet Extra Bold'), local('Objet-Extra-Bold'),
+        url('Objet-ExtraBold.woff2') format('woff2'),
+        url('Objet-ExtraBold.woff') format('woff'),
+        url('Objet-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
